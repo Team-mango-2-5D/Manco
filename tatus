@@ -1,0 +1,454 @@
+[33mcommit 105a0421a814a80a7578df0d5dc6c7f91aa5dd03[m[33m ([m[1;36mHEAD -> [m[1;32mBECAUD[m[33m, [m[1;31morigin/BECAUD[m[33m)[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 21:01:53 2023 +0200
+
+    Platform stick not parenting anymore Renamed platform prefabs
+
+[33mcommit 37596049cf21973a7967d0483702f9b81aefa513[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 16:04:21 2023 +0200
+
+    Fixed Lever(check Physic interaction in project settings)
+    Sound doubles are prevented
+
+[33mcommit 3eb09d610eb67007c0fd0245d1db9eae7c6ee40c[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 15:27:33 2023 +0200
+
+    SpearJump Fix
+
+[33mcommit be3f78242db9e564c2edab6195e5fca53fb51a9d[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 15:01:18 2023 +0200
+
+    Acceleration/Deceleration added, CheckGround improved, Temple assets added, Readme updated
+
+[33mcommit 994772f71987f125067e71b082299403126cd286[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 11:52:17 2023 +0200
+
+    Wall Jump fixed bis Fix#14
+
+[33mcommit 17a83873b7403c62cfd81ecae429bff128c940ba[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 12 10:43:32 2023 +0200
+
+    Fixed WallSlide Fix #14
+
+[33mcommit 2f4c5257e6c5cbc8c14c953bbc29cebb9640ef6b[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 11 21:40:11 2023 +0200
+
+    ForceMode changed, bumper added, Wall Slide, More responsive movement Fixes #9 #14
+    Need Collider for lever
+    Jump and dash to change bumper force seems odd too
+
+[33mcommit 557636a79f632c9f8693a39b7b6d8c2b2357eb06[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 20:02:40 2023 +0200
+
+    Platform double erased
+
+[33mcommit 93337f41ccf5b7d92f2e19b2503605783da70970[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 18:13:06 2023 +0200
+
+    Merge with minimum 0 for serializables
+
+[33mcommit d3a34f3aadc89ddb9b7c0ad91737efc74ca780dc[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 15:45:11 2023 +0200
+
+    Falling platform, compatible moving closes #8 #11
+    Fixed a few stickybugs
+
+[33mcommit f11afc874c1722f8612d72557aa42dea0bf1d21f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:09:32 2023 +0200
+
+    Falling Platform, Platform now stick to anytithing, only on upward face
+
+[33mcommit 9c1900b64b30ab455a40586d43d2bfff751889a6[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 15:45:11 2023 +0200
+
+    Falling platform, compatible moving closes #8 #11
+    Fixed a few stickybugs
+
+[33mcommit 9d7427ef779336d8cac035a9088660b8bd3e77f9[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:09:32 2023 +0200
+
+    Falling Platform, Platform now stick to anytithing, only on upward face
+
+[33mcommit 1dce844ca29022cdeffb28bc9883d055122ce948[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Mon Apr 3 15:54:57 2023 +0200
+
+    Revert "logo URP.png git ignore modif GD"
+    
+    This reverts commit 55e327a0b2e80da55e71d8deabad55db8719568f.
+
+[33mcommit e742e19e89e8a41277ea596236909d37599197b2[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Mon Apr 3 14:24:29 2023 +0200
+
+    Added the prototype Scene (in GD folder)
+
+[33mcommit bd59c64c83f3613e8a3fdb1551739e05cc571c97[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 15:45:11 2023 +0200
+
+    Falling platform, compatible moving closes #8 #11
+    Fixed a few stickybugs
+
+[33mcommit ce2188e42665625a261bfa22aa4daeff6adaf99d[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:09:32 2023 +0200
+
+    Falling Platform, Platform now stick to anytithing, only on upward face
+
+[33mcommit 448d694223ab7c1878eff7cf0103d140d2fd3922[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Fri Apr 7 18:52:15 2023 +0200
+
+    PlatformBehaviour removed double
+
+[33mcommit 92d08891a9b81911e211f039a150e81612216934[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Fri Apr 7 15:15:35 2023 +0200
+
+    Update GD
+
+[33mcommit 14aca543b849f1fcce8f0674a02e1f1948f7a2cd[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Fri Mar 31 22:44:16 2023 +0200
+
+    Added some scripts for general player movement
+
+[33mcommit 48eea81f8d734025a8ef835cdda8fd0168056082[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 18:13:06 2023 +0200
+
+    Merge with minimum 0 for serializables
+
+[33mcommit b3d61e8cdb2b02526f0773ba32de91ccce3c324b[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 15:45:11 2023 +0200
+
+    Falling platform, compatible moving closes #8 #11
+    Fixed a few stickybugs
+
+[33mcommit d4ad0f1b6cf66a7146dd8c6569881c8d2cbd22ae[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:09:32 2023 +0200
+
+    Falling Platform, Platform now stick to anytithing, only on upward face
+
+[33mcommit 685f843470fd713234627b9e3483de63ae5f80de[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 17:59:03 2023 +0200
+
+    Activable Platform, Lever to interact with
+    Organization in prefabs
+    (GP folder)
+
+[33mcommit f206308cef573dc03bd438017b14813ba2b98a30[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 15:45:11 2023 +0200
+
+    Falling platform, compatible moving closes #8 #11
+    Fixed a few stickybugs
+
+[33mcommit e4ea79455581db37ab78c4a7bbcdba83db17a76f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:26:09 2023 +0200
+
+    Edit path by Vector3 directly
+
+[33mcommit 235e08813f9b282b4042d630765a1e62c14c9265[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Apr 7 12:09:32 2023 +0200
+
+    Falling Platform, Platform now stick to anytithing, only on upward face
+
+[33mcommit f1c232cb308f3a0af388cb7061f94e5d17be5d8f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 5 21:40:13 2023 +0200
+
+    Less commentary
+
+[33mcommit 59c31cb13464ce00f09121170a59784e62abe911[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 5 21:32:46 2023 +0200
+
+    AudioManager, one music at the time and Easy StickTo platforms
+
+[33mcommit 277c0c306f231659ada6b7761d9614f0a32b3494[m
+Merge: 704efc7 953e09a
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 5 14:54:12 2023 +0200
+
+    Platform added
+    Test Dummy
+    Merged with BECAUD
+
+[33mcommit 953e09a5ee38f8139a2445bc4ea132133083371b[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 5 14:28:34 2023 +0200
+
+    Moving platform
+
+[33mcommit 03aa04e8bb5d0bc0d421d1d4e97b5b966d6e8081[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Apr 5 12:04:11 2023 +0200
+
+    Spear times fixed
+    Attempt to add Animator
+
+[33mcommit f1d212348eafcbadb6f7dec1ddc01aa016e76342[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 19:59:30 2023 +0200
+
+    Fixed CoyoteTime
+
+[33mcommit 704efc7222d6af1db6de3850fc51640161350ff4[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:46:32 2023 +0200
+
+    Some Clean in code
+
+[33mcommit 18692c5fa8cef74e9f26ee64b5b8b8b8f5f68088[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:21:59 2023 +0200
+
+    Fixed Dash !
+
+[33mcommit 735e0d45524e1a0d8e4ea0b9f619ee1a3f37e535[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:07:30 2023 +0200
+
+    Rodeo Fixed, dash sitll tricky
+
+[33mcommit cd49e13867dde743ac50fd97d8b3fa86181bcb1a[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 15:50:13 2023 +0200
+
+    Corrected leave ground, simpler jump funcs dash still imprecise
+
+[33mcommit 78850b4dc4db0ca14092e9007fbc1cbdac0faf9a[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:43:19 2023 +0200
+
+    Good riddance png
+
+[33mcommit ced0a771794c732efabc9b10f264f85f9013e7d4[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 19:54:25 2023 +0200
+
+    GD combined, added Spear Jump
+
+[33mcommit b05bfbf057df65ea392534201f9d0314feae4f4d[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:03:08 2023 +0200
+
+    No more URP.png.
+
+[33mcommit d1ead85f06158e1363cd3bae5b52b8a99502ec94[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:46:32 2023 +0200
+
+    Some Clean in code
+
+[33mcommit ed8aa90a9321cb31ce6270eb596303bb7d034755[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:21:59 2023 +0200
+
+    Fixed Dash !
+
+[33mcommit b541a20421091d0f3c22be3701e252ed880d49dd[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 18:07:30 2023 +0200
+
+    Rodeo Fixed, dash sitll tricky
+
+[33mcommit 504311d253dc888f796faf81d040242da19cfd6f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Tue Apr 4 15:50:13 2023 +0200
+
+    Corrected leave ground, simpler jump funcs dash still imprecise
+
+[33mcommit 7b5e498d496f46693394bc0de7370ee454eda016[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:43:19 2023 +0200
+
+    Good riddance png
+
+[33mcommit 4b58461411526d6ef223d692fabd8168333a5a76[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 19:58:28 2023 +0200
+
+    Rebase
+
+[33mcommit c8655bffbea9368743a9c4c9da2048e7841b4b04[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 19:54:25 2023 +0200
+
+    GD combined, added Spear Jump
+
+[33mcommit 069811c8ec5f9ad1b7924895bb8b48a9106c1e76[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Mon Apr 3 16:53:11 2023 +0200
+
+    Fixed dash prototype, uses ground detection to refresh
+
+[33mcommit 8edd8f1bee860a6c99b0531cc47cac706932a918[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Mon Apr 3 15:31:34 2023 +0200
+
+    Second Version of the Prototype Scene (with all states)
+
+[33mcommit 7e4fb91b6b51314e9a7319dbda02a43daac7f49d[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Mon Apr 3 14:24:29 2023 +0200
+
+    Added the prototype Scene (in GD folder)
+
+[33mcommit c0bba86c0345b20ecdc8e5368fd7c3a27fb8bd6f[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Mon Apr 3 15:47:19 2023 +0200
+
+    logo URP.png git ignore modif
+
+[33mcommit 5aea36ef267ec2475bf89ad572ba008a454f797a[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Fri Mar 31 22:44:16 2023 +0200
+
+    Added some scripts for general player movement
+
+[33mcommit 44c90a3b10b1dd4258ad9f79b73358d38d96269d[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:43:19 2023 +0200
+
+    Good riddance png
+
+[33mcommit aece1cbd68ae17ee345be18bcc97c65b8c64cf44[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:36:37 2023 +0200
+
+    Png
+
+[33mcommit 3e912e092637121a90db4767a1d937a14033c4af[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 20:03:08 2023 +0200
+
+    No more URP.png.
+
+[33mcommit 194ad560d649b864c39e2565a56d65bcddd85ae0[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 19:58:28 2023 +0200
+
+    Rebase
+
+[33mcommit 7797f3c80bc84496122e557653373cf88b2a9f8b[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 19:54:25 2023 +0200
+
+    GD combined, added Spear Jump
+
+[33mcommit 07443194f04f775478dc83f3cc9380725f6d0252[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Mon Apr 3 16:53:11 2023 +0200
+
+    Fixed dash prototype, uses ground detection to refresh
+
+[33mcommit 370922e5352889e507c13e3415fd393172219824[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Mon Apr 3 15:31:34 2023 +0200
+
+    Second Version of the Prototype Scene (with all states)
+
+[33mcommit 8089278df4b2edfcb441959efbcd96670ec783cf[m
+Author: Maxence JARRY <m.jarry@student.isartdigital.com>
+Date:   Mon Apr 3 14:24:29 2023 +0200
+
+    Added the prototype Scene (in GD folder)
+
+[33mcommit d52555ce60404b74d392f1314094c75534d59cb2[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Mon Apr 3 15:47:19 2023 +0200
+
+    logo URP.png git ignore modif
+
+[33mcommit bcbcb74d6bc07202ad73d315d59440a484004474[m
+Author: Nelith <c.mainguy@student.isartdigital.com>
+Date:   Fri Mar 31 22:44:16 2023 +0200
+
+    Added some scripts for general player movement
+
+[33mcommit e1113b11c854a51b8fca1e77ee3642a915135428[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Mon Apr 3 18:19:06 2023 +0200
+
+    Spear facing good direction, 8 direction stick
+
+[33mcommit 491642ee646b6ac6fc9f4ca0b89e8d5a0444678a[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Mar 31 19:45:54 2023 +0200
+
+    Clean Debug, audio tests, need an 8 directions stick
+
+[33mcommit 0911da30b268a92ee97500726fa667e2b39d6b0f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Mar 31 12:04:16 2023 +0200
+
+     Esc pour quitter Enter Restart
+
+[33mcommit a97011c9f0a0a2f95d1d3885f35079150124c2cb[m[33m ([m[1;31morigin/MAS[m[33m, [m[1;31morigin/LEBOLLOCH[m[33m, [m[1;31morigin/LASFARGUE_PEZZALI[m[33m, [m[1;31morigin/DARNOUXDEFLEURYDELHERMITE[m[33m, [m[1;31morigin/CADY[m[33m, [m[1;31morigin/BONTEMS[m[33m, [m[1;32mMS[m[33m, [m[1;32mMAS[m[33m, [m[1;32mMAINGUY[m[33m, [m[1;32mLEBOLLOCH[m[33m, [m[1;32mLASFARGUE_PEZZALI[m[33m, [m[1;32mFRANCEQUIN[m[33m, [m[1;32mDARNOUXDEFLEURYDELHERMITE[m[33m, [m[1;32mCADY[m[33m, [m[1;32mBONTEMS[m[33m)[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Fri Mar 31 11:05:23 2023 +0200
+
+    CheckGround fixed, tangible spear, visual improved
+
+[33mcommit b248936eef7c5266415ed1e09b41491933974966[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Thu Mar 30 21:50:10 2023 +0200
+
+    AudioManager included in MS
+
+[33mcommit 0bdd322a49704c8b21276ab9252d81369ed654b4[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Thu Mar 30 21:48:14 2023 +0200
+
+    AudioManager added
+
+[33mcommit 454c9d8c6959dbc21c1dea38c80e21e620de8060[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Thu Mar 30 20:55:20 2023 +0200
+
+    Thor like spear, Sticky too !
+    CoyoteTime, JumpBuffer, Juicy as hell !
+
+[33mcommit ac140071768f63a8b7368b6f5f14f89b80462174[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Mar 29 21:40:29 2023 +0200
+
+    Spear Throw progress, Sticky though
+
+[33mcommit c7143d76187890a00465175d17caf9d58006b910[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Mar 29 19:55:49 2023 +0200
+
+    gitattributes
+
+[33mcommit b09c99a0a60805b2d5ab38bf6b5a2cf2efd33d4f[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Mar 29 19:51:42 2023 +0200
+
+    Ajoutez des fichiers projet.
+
+[33mcommit 883866571798058ad05e39740c4e8108707bd349[m
+Author: f.becaud <f.becaud@student.isartdigital.com>
+Date:   Wed Mar 29 19:51:37 2023 +0200
+
+    Ajouter .gitattributes
