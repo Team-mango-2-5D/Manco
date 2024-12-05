@@ -1,0 +1,533 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7375704789126841989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5075548903296999070}
+  - component: {fileID: 5580858261340091631}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5075548903296999070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375704789126841989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5580858261340091631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7375704789126841989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0035affc45f1945a1a67130a5cdeaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player_damage_0
+    clip: {fileID: 8300000, guid: 2a479ff9bf46bbe4c9be33060ff3356d, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_damage_1
+    clip: {fileID: 8300000, guid: 5185ffb0b1ea5974ebd9e75ac137ed37, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_attack_strong
+    clip: {fileID: 8300000, guid: f210e78c4a0861945ba05badb50ce35c, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_attack_0
+    clip: {fileID: 8300000, guid: c7e827476ea7d024c8bb1b4668d22912, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_attack_1
+    clip: {fileID: 8300000, guid: a9217cb0071e983409bd1216067c4a2a, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy1_attack
+    clip: {fileID: 8300000, guid: 251a764eb41d0e1469c73598ce8027e0, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy1_damage
+    clip: {fileID: 8300000, guid: e00b437c51180ac46a70154edc93f988, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy1_death
+    clip: {fileID: 8300000, guid: 4d445f09790fdf54ea04f3555948712c, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Spear_spin
+    clip: {fileID: 8300000, guid: 746521ef71a3e314a9ee86dfd2a70bcc, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_spear_throw
+    clip: {fileID: 8300000, guid: f7d1bb7bb2f933643ac79f5bda18fbbd, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_spear_throw_damage
+    clip: {fileID: 8300000, guid: 93015e541a8320c40aa6bfcbe9f04a31, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_spear_return
+    clip: {fileID: 8300000, guid: f250c3b0a8e7ba74ca7f752e74fbe000, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_footstep_0
+    clip: {fileID: 8300000, guid: 8fdc78bfa8ce29d45ac12057b4d6b2ef, type: 3}
+    duration: 0.2
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_footstep_1
+    clip: {fileID: 8300000, guid: 8276d068c743a1e42a254a9429c5b74c, type: 3}
+    duration: 0.2
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_footstep_2
+    clip: {fileID: 8300000, guid: 1d69eacc0a80db8488988e7bf2c18c1c, type: 3}
+    duration: 0.2
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_footstep_3
+    clip: {fileID: 8300000, guid: a00087432a40bfd4ea4881ee6c438ccd, type: 3}
+    duration: 0.2
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_footstep_4
+    clip: {fileID: 8300000, guid: c1482e4a7f1185949b8eb8a6a1a198cc, type: 3}
+    duration: 0.2
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_dash
+    clip: {fileID: 8300000, guid: 1ce3d2b925a754342a6066b50ae25d42, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_death
+    clip: {fileID: 8300000, guid: 8f51a9aca4e08ff4888becb13f9d20fb, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_damage_0
+    clip: {fileID: 8300000, guid: 2a479ff9bf46bbe4c9be33060ff3356d, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_damage_1
+    clip: {fileID: 8300000, guid: 5185ffb0b1ea5974ebd9e75ac137ed37, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_jump
+    clip: {fileID: 8300000, guid: 3c7eec7b79a034a4889c7a7714d67441, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy4_attack
+    clip: {fileID: 8300000, guid: a7a51d7c3bedc9e4b89ae70e9a7b2c90, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy4_fall
+    clip: {fileID: 8300000, guid: a665f0caa83a15d4c89cddb2a1c42433, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy3_death
+    clip: {fileID: 8300000, guid: 39815cb6823e1d64c82b51533d9187c7, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy2_damage
+    clip: {fileID: 8300000, guid: 7b7faffd48dfde440b2bab70606b8f3f, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy2_death
+    clip: {fileID: 8300000, guid: 288f6a968ec6c914b90850c536b20cf0, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Enemy2_attack
+    clip: {fileID: 8300000, guid: f896c87079e58cf4b8e2ebc618b99c3f, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Platform_bump
+    clip: {fileID: 8300000, guid: fae716d4e02361744a8616da323b32b9, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_spear_jump
+    clip: {fileID: 8300000, guid: 4fccb958349dcf647b1aa4e902c2b534, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Platform_falling
+    clip: {fileID: 8300000, guid: a056f2cfc60e8a64aab711a5e51102cb, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Switch_on
+    clip: {fileID: 8300000, guid: 6473e0e4e03778d4e8a6649d963128a4, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Switch_off
+    clip: {fileID: 8300000, guid: 5e1f99a7dd23baa46b0b94590af757d7, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Platform_hit
+    clip: {fileID: 8300000, guid: 5fa0eee3f003e4945990e262d2ae871c, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Platform_break
+    clip: {fileID: 8300000, guid: a2239721c92d173498f6024cac01cd72, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Player_groundslam
+    clip: {fileID: 8300000, guid: e28d2ac2f40c071468d7e2ab2e4a5ad2, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  - name: Platform_spear
+    clip: {fileID: 8300000, guid: 3e242b5ca73aaaa408de9691f23e2b18, type: 3}
+    duration: 0.5
+    isPlaying: 0
+    m_Time: 0
+    volume: 1
+    pitch: 1
+    mute: 0
+    loop: 0
+    playOnAwake: 0
+    panStereo: 0
+    spatialBlend: 0
+    source: {fileID: 0}
+  audioSource: {fileID: 6987446810764350909, guid: 65a08953a83578740b8804a2db353419,
+    type: 3}
+  varVolume: 0.2
+  varMinPitch: 0.2
+  varMaxPitch: 0.2
