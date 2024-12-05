@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/GD/MAINGUY/Scripts/ScriptGraphs/scriptCam.asset.meta
+guid: 1853341c839874643a276f4885e49fb0
+=======
+guid: c01394e7533bdf548b5f98ea23b238bd
+>>>>>>> GD combined, added Spear Jump:Assets/GD/MAINGUY/Scripts/StateGraphs/statePlayer1.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
