@@ -2,6 +2,14 @@ Mango2_5D.exe
 ===============
 Mango2_5D is a PC, 2.5D Side-scroller Close Combat-Platformer game written in C# using Unity.
 
+Watch the trailer
+:---------------
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4xcfPRib3Nw/0.jpg)](https://www.youtube.com/watch?v=4xcfPRib3Nw)
+
+Test here: https://mathieumas.itch.io/manco
+
+![dcVA1I](https://github.com/user-attachments/assets/742e8607-e91b-4925-9fd1-369f476241ef)
+
 Unity Version
 -------------
 unity 2021.3.5f1
@@ -62,9 +70,12 @@ Packages to Install
       
       - Prefabs/Decorative/FloorBlocks Corners Walls/Block Ruin Wall 1,2&4
       - Prefabs/Decorative/FloorBlocks Corners Walls/Floor Blocks 17
+      - 
       ![screenshot](ReadmeAssets/CartoonTempleAssetsDecorative2.PNG)
 
     - Don't forget to update to URP (Universal Render Pipeline): Select the newly added Materials then Edit->Rendering->Materials->Convert Selected Built-in Materials to URP
+
+![KVGcHx](https://github.com/user-attachments/assets/ec818282-ffa2-4369-8630-c94a5b2f7687)
 
 Controls
 --------
@@ -77,17 +88,25 @@ Keyboard (Easier to test):
     - right click to throw lance
     - Shift to dash
     - Space to jump
+    
+![g5seXN](https://github.com/user-attachments/assets/2955e503-690f-4b8f-8f19-1e0f2a750585)
 
 Gamepad:
+
 LeftStick:
+:--
     - Look at direction()
     - Left  Move Left
     - Right Move Right
     - Right Trigger to throw lance
     - Left  Trigger to dash
+Buttons:
+:--
     - West  (X) to attack # Not Available yet
     - North (Y) to attack # Not Available yet
     - South (A) to jump
     - East  (B) to jump
+
+![q2_Idw](https://github.com/user-attachments/assets/7f27e390-489a-42ec-acf6-dbf0cea0b2de)
 
 
