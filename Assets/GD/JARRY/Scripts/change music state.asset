@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: change music state
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"Start
+      transition","label":null,"summary":null,"hideLabel":false},{"key":"End trasition","label":null,"summary":null,"hideLabel":false},{"key":"transition","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0.5,"$type":"System.Single"},"_type":"System.Single","key":"duration","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":0.5,"$type":"System.Single"},"_type":"System.Single","key":"value
+      to add","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":{"$content":1.0,"$type":"System.Single"},"_type":"System.Single","key":"original
+      value","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Single","key":"transition
+      value","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":154.6054,"y":-17.41088},"zoom":0.6999999,"elements":[{"defaultValues":{},"position":{"x":-615.0,"y":-51.0},"guid":"f604ff2e-5159-4bc8-bc55-251ead75b70e","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"17"},{"defaultValues":{},"position":{"x":430.0,"y":-80.0},"guid":"a94ab248-e49d-4614-9eb7-b16b87daf36e","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"19"},{"defaultValues":{"minuend":{"$content":1.0,"$type":"System.Single"},"subtrahend":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-148.0,"y":22.0},"guid":"a30c8b90-eb1b-4ebc-91ec-fd3818b6f641","$version":"A","$type":"Unity.VisualScripting.ScalarSubtract","$id":"21"},{"defaultValues":{"duration":{"$content":0.1,"$type":"System.Single"},"unscaledTime":{"$content":true,"$type":"System.Boolean"}},"position":{"x":-415.0,"y":-115.0},"guid":"80d45923-ccd1-40bc-a751-674aa0525590","$version":"A","$type":"Unity.VisualScripting.Cooldown","$id":"23"},{"defaultValues":{"b":{"$content":0.1,"$type":"System.Single"}},"position":{"x":29.0,"y":20.0},"guid":"76f46133-72e1-46e6-8126-c28ab73958bf","$version":"A","$type":"Unity.VisualScripting.ScalarMultiply","$id":"25"},{"inputCount":2,"defaultValues":{"1":{"$content":1.0,"$type":"System.Single"}},"position":{"x":258.0,"y":89.0},"guid":"e18e6555-c753-4063-83cb-1a12a15cc597","$version":"A","$type":"Unity.VisualScripting.ScalarSum","$id":"27"},{"sourceUnit":{"$ref":"17"},"sourceKey":"Enter","destinationUnit":{"$ref":"23"},"destinationKey":"enter","guid":"87f0e3bf-63ab-49cf-b276-159e9ab79246","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"tick","destinationUnit":{"$ref":"19"},"destinationKey":"transition","guid":"d83f8241-d6ad-4384-8765-29fdf2ab3a51","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"exitReady","destinationUnit":{"$ref":"19"},"destinationKey":"Start
+      transition","guid":"f546f736-acad-4b1c-ac29-91ff97af192c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"becameReady","destinationUnit":{"$ref":"19"},"destinationKey":"End
+      trasition","guid":"59cdbf37-d22c-4b23-9dde-9c7b5d46db51","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"remainingRatio","destinationUnit":{"$ref":"21"},"destinationKey":"subtrahend","guid":"706bbe6e-a076-447c-9fdf-c82ff8ee8403","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"difference","destinationUnit":{"$ref":"25"},"destinationKey":"a","guid":"90c0b245-0dbc-4def-8812-61bcde4edc18","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"product","destinationUnit":{"$ref":"27"},"destinationKey":"1","guid":"3159c17c-8990-4b9a-90c3-3ff0d670383c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"duration","destinationUnit":{"$ref":"23"},"destinationKey":"duration","guid":"41a17ce0-29a7-40ec-b8db-7b16032fbb15","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value
+      to add","destinationUnit":{"$ref":"25"},"destinationKey":"b","guid":"ea89ede5-6d8f-40b1-b91f-080d36b28824","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"original
+      value","destinationUnit":{"$ref":"27"},"destinationKey":"0","guid":"005d6fc8-cb27-4cb2-83d9-3624822b64bb","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"27"},"sourceKey":"sum","destinationUnit":{"$ref":"19"},"destinationKey":"transition
+      value","guid":"47b224c4-ec24-4fbc-a525-a829a5dcf7b7","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
