@@ -42,12 +42,12 @@ Packages to Install
       - Materials/Cartoon Templ Builder Kit.mat
       - Materials/Textures/Cartoon Temple Builder Kit.png
       
-      ![screenshot](ReadmeAssets/CartoonTempleAssets1.png)
+      ![screenshot](ReadmeAssets/CartoonTempleAssets1.PNG)
       
       - Fbx/Decorative/FloorBlocks Corners Walls/Block Ruin Wall 1,2&4
       - Fbx/Decorative/FloorBlocks Corners Walls/Floor Blocks 17
       
-      ![screenshot](ReadmeAssets/CartoonTempleAssetsDecorative1.png)
+      ![screenshot](ReadmeAssets/CartoonTempleAssetsDecorative1.PNG)
 
       - Prefabs/Blocks
       - Prefabs/Blocks And Bricks
@@ -58,11 +58,11 @@ Packages to Install
 	- Prefabs/Pieced
 	- Prefabs/Wall
 
-      ![screenshot](ReadmeAssets/CartoonTempleAssets2.png)
+      ![screenshot](ReadmeAssets/CartoonTempleAssets2.PNG)
       
       - Prefabs/Decorative/FloorBlocks Corners Walls/Block Ruin Wall 1,2&4
       - Prefabs/Decorative/FloorBlocks Corners Walls/Floor Blocks 17
-      ![screenshot](ReadmeAssets/CartoonTempleAssetsDecorative2.png)
+      ![screenshot](ReadmeAssets/CartoonTempleAssetsDecorative2.PNG)
 
     - Don't forget to update to URP (Universal Render Pipeline): Select the newly added Materials then Edit->Rendering->Materials->Convert Selected Built-in Materials to URP
 
